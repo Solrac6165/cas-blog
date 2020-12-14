@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, svg {
 	color: rgba(34,22,43, 1)
 }
 p {
-	font-family: Nunito;
+	font-family: Nunito, Arial, Helvetica, sans-serif;;
 }
 
 .background, .article-container {
