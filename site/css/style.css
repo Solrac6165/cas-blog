@@ -3,6 +3,10 @@ h1, h2, h3, h4, h5, h6, p, svg {
 	color: rgba(34,22,43, 1)
 }
 
+.background, .article-container {
+	background: #f5f5f5;
+}
+
 #main-headding {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
@@ -45,7 +49,7 @@ h1, h2, h3, h4, h5, h6, p, svg {
 	height: 650px;
 }
 
-#bloque-link-creatividad:link, #bloque-link-creatividad:visited, #bloque-link-creatividad:hover, #bloque-link-accion:link, #bloque-link-accion:visited, #bloque-link-accion:hover, #bloque-link-servicio:link, #bloque-link-servicio:visited, #bloque-link-servicio:hover{
+.article-cell-headding:hover .article-cell-headding:link .article-cell-headding:visited .article-container:link .article-container:hover .article-container:visited #bloque-link-creatividad:link, #bloque-link-creatividad:visited, #bloque-link-creatividad:hover, #bloque-link-accion:link, #bloque-link-accion:visited, #bloque-link-accion:hover, #bloque-link-servicio:link, #bloque-link-servicio:visited, #bloque-link-servicio:hover{
 	text-decoration: none;
 }
 
@@ -74,9 +78,90 @@ h1, h2, h3, h4, h5, h6, p, svg {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 64px;
-	margin-top: 64px;
+	margin-top: 32px;
+	margin-bottom: 32px;
 }
 
+#navbar-header-creatividad{
+	background: #e9403a;
+	height: 4rem;
+}
+
+#navbar-header-accion {
+	background: #04724d;
+	height: 4rem;
+}
+
+#navbar-header-servicio {
+	background: #1768ac;
+	height: 4rem;
+}
+
+.return-to-index-button {
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	right: 50px;
+	top: 25%;
+	color: #f5f5f5;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	margin-top: 10px ;
+}
+
+.nav-link:link, .nav-link:visited {
+	text-decoration: : none;
+	color:#f5f5f5;
+}
+
+.nav-link:hover {
+	color: #f5f5f5;
+	text-decoration: underline;
+}
+
+.article-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 420px;
+	overflow: auto;
+}
+
+.article-cell {
+	position: relative;
+	background: #fff ;
+	height: 100px;
+	width: 100%;
+	box-shadow: 2px 2px 5px rgba(34,22,43, .5); 
+	margin-bottom: 10px
+}
+
+.article-cell-img {
+	max-width: 20%;
+	max-height: 100%;
+	margin: 5px 10px 5px 5px;
+	float: left;
+
+}
+
+.article-cell-headding {
+	float: left;
+}
+.article-cell-text {
+	position: absolute;
+	bottom: 0px;
+	left: 156px;
+	max-width: 70%;
+	font-size: 0.8rem;
+}
+.article-cell-date {
+	position: absolute;
+	bottom: 60%;
+	right: 5%;
+	font-size: 0.7rem;
+}
 @media only screen and (min-width: 576px) {
 
 }
